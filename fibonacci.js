@@ -62,10 +62,4 @@ fn.call(person2);
 
 // person2.getName();
 
-  // converting an object to an array of objects
-  // input -> {a:1, b:2, c:3}
-  // output -> [{a:1}, {b:2}, {c:3}]
 
-  const input = {a:1, b:2, c:3};
-  const output = Object.keys(input).map((key) =>({[key]:input[key]}));
-  console.log(output);
