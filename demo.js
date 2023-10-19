@@ -327,3 +327,4 @@ if (isRightAngled(12, 13, 5)) {
   const Input = {a:1, b:2, c:3};
   const Output = Object.keys(Input).map((key) =>({[key]:Input[key]}));
   console.log(Output);
+  console.log(3+4);
